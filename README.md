@@ -8,7 +8,7 @@ The project involves analyzing a dataset thousands of Amazon product reviews. Us
 
 ### Purpose
 
-A client is about to release a large catalog of products of a leading retail website. Analyses aim to answer the following:
+A client is about to release a large catalog of products on a leading retail website. The analyses aim to answer the following:
 
 * How to the reviews of the company's products compare to similar products sold by their competitors
 * Is it worth the cost of enrolling in a program that gives out rewards to select reviewers?
