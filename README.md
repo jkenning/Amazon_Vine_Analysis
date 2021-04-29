@@ -21,7 +21,7 @@ Tools and software: Spark 3.1.1, PySpark in Google Colab, Amazon Web Services RD
 
 Amazon source data: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
-## Analysis of Vine Reviews Vs. Non-vine Reviews
+## Analysis of Vine Reviews Vs. Non-Vine Reviews
 
 A dataframe was created of the Amazon US Electronics product reviews. The data was then filtered to products where there are 20 or more votes and the percentage of helpful votes is equal or greater than 50%. 
 
@@ -53,6 +53,6 @@ Figure. 2 - Resultant dataframe filtered to non-vine Reviews
 
 ## Summary
 
-The analysis shows there is no positivity bias for reviews given by vine members compared to non-vine members. In fact, while the percentage of vine 5-star reviews vs. non-vine 5-star reviews is fairly similar (within 5 percentage points), the percentage of non-vine 5-star reviews is actually higher. 
+The analysis shows there is no positivity bias for reviews given by vine members compared to non-vine members. In fact, while the percentage of vine 5-star reviews vs. non-vine 5-star reviews is fairly similar (within 5 percentage points), the percentage of non-vine 5-star reviews is actually slightly higher. 
 
-While this suggests that non-vine members are more likely to give 5-star reviews than vine members, it does not necessarily mean that they provide more favorable reviews for a product overall. It would be worth seeing a comparison for each star rating, it could be that vine reviewers are significantly more likely to give 4-star reviews than non-vine members for instance which are still pretty good reviews. It might also be the case that even though vine reviewers do not provide any different proportion of highly rated reviews, they are far less likely to give the product negative reviews than non-vine members which could still be worthwhile investment for the company. So it is worth analyzing the difference between percentages of average and negative reviews.
+While this suggests that non-vine members *may* be more likely to give 5-star reviews than vine members, it does not necessarily mean that they provide more favorable reviews for a product overall. It would be worth seeing a comparison for each star rating, it could be that vine reviewers are significantly more likely to give 4-star reviews than non-vine members for instance which are still pretty good reviews. It might also be the case that even though vine reviewers do not provide any different proportion of highly rated reviews, they are far less likely to give the product negative reviews than non-vine members which could still be worthwhile investment for the company. So it is worth analyzing the difference between percentages of average and negative reviews.
