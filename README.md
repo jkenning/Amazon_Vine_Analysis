@@ -25,7 +25,11 @@ Amazon source data: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 A dataframe was created of the Amazon US Electronics product reviews. The data was then filtered to products where there are 20 or more votes and the percentage of helpful votes is equal or greater than 50%. 
 
+![]()
+
 Figure. 1 - Resultant dataframe filtered to vine reviews
+
+![]()
 
 Figure. 2 - Resultant dataframe filtered to non-vine Reviews
 
