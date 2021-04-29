@@ -1,4 +1,4 @@
-# Amazon Vine Reviews - Big Data
+# Amazon Vine Analysis - Big Data
 
 Analysis of thousands of Amazon US review data for electronics products
 
@@ -25,11 +25,11 @@ Amazon source data: https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt
 
 A dataframe was created of the Amazon US Electronics product reviews. The data was then filtered to products where there are 20 or more votes and the percentage of helpful votes is equal or greater than 50%. 
 
-![]()
+![](https://github.com/jkenning/Amazon_Vine_Analysis/blob/main/Images/vine_reviews_total_df.png)
 
 Figure. 1 - Resultant dataframe filtered to vine reviews
 
-![]()
+![](https://github.com/jkenning/Amazon_Vine_Analysis/blob/main/Images/non_vine_reviews_total_df.png)
 
 Figure. 2 - Resultant dataframe filtered to non-vine Reviews
 
